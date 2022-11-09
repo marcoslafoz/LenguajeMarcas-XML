@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos_futbol>
+    <realmadrid>
+        <infoequipo>
+            <nombre_equipo>Real Madrid Club de Fútbol</nombre_equipo>
+            <ciudad>Madrid, España</ciudad>
+            <entrenador>Carlo Ancelotti</entrenador>
+        </infoequipo>
+        <jugadores>
+            <vinijr>
+                <nombre_jugador>Vinícius Júnior</nombre_jugador>
+                <posicion>Delantero</posicion>
+                <nacionalidad>Brasil</nacionalidad>
+            </vinijr>
+            <kbenzema>
+                <nombre_jugador>Karim Benzema</nombre_jugador>
+                <posicion>Delantero</posicion>
+                <nacionalidad>Francia</nacionalidad>
+            </kbenzema>
+            <fvalverde>
+                <nombre_jugador>Federico Valverde</nombre_jugador>
+                <posicion>Centrocampista</posicion>
+                <nacionalidad>Uruguay</nacionalidad>
+            </fvalverde>
+        </jugadores>
+    </realmadrid>
+    <barsa>
+        <infoequipo>
+            <nombre_equipo>Fútbol Club Barcelona</nombre_equipo>
+            <ciudad>Barcelona, España</ciudad>
+            <entrenador>Xavi Hernández</entrenador>
+        </infoequipo>
+        <jugadores>
+            <gavi>
+                <nombre_jugador>Gavi</nombre_jugador>
+                <posicion>Centrocampista</posicion>
+                <nacionalidad>España</nacionalidad>
+            </gavi>
+            <lewandowski>
+                <nombre_jugador>Robert Lewandowski</nombre_jugador>
+                <posicion>Delantero</posicion>
+                <nacionalidad>Polonia</nacionalidad>
+            </lewandowski>
+            <pedri>
+                <nombre_jugador>Pedri</nombre_jugador>
+                <posicion>Centrocampista</posicion>
+                <nacionalidad>España</nacionalidad>
+            </pedri>
+        </jugadores>
+    </barsa>
+</equipos_futbol>

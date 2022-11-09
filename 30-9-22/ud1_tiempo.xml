@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tiempo localidad="Zaragoza">
+    <fecha>30/09/2022</fecha>
+    <dia_semana>Viernes</dia_semana>
+    <estado_cielo>Parcialmente nublado</estado_cielo>
+    <temp_hora>
+        <temp unidad="celsius" hora="14:00">19</temp>
+        <temp unidad="celsius" hora="17:00">21</temp>
+        <temp unidad="celsius" hora="20:00">19</temp>
+        <temp unidad="celsius" hora="23:00">16</temp>
+        <temp unidad="celsius" hora="2:00">14</temp>
+        <temp unidad="celsius" hora="5:00">13</temp>
+        <temp unidad="celsius" hora="8:00">12</temp>
+        <temp unidad="celsius" hora="11:00">14</temp>
+    </temp_hora>
+    <precipitaciones unidad="%">0</precipitaciones>
+    <humedad unidad="%">48</humedad>
+    <viento unidad="km/h">32</viento>
+    <prediccion_7dias>
+        <prediccion dia="S">
+            <temp_min unidad="celsius">11</temp_min>
+            <temp_max unidad="celsius">26</temp_max>
+            <estado_cielo>Parcialmente nublado</estado_cielo>
+        </prediccion>
+        <prediccion dia="D">
+            <temp_min unidad="celsius">12</temp_min>
+            <temp_max unidad="celsius">29</temp_max>
+            <estado_cielo>Parcialmente nublado</estado_cielo>
+        </prediccion>
+        <prediccion dia="L">
+            <temp_min unidad="celsius">14</temp_min>
+            <temp_max unidad="celsius">30</temp_max>
+            <estado_cielo>Parcialmente nublado</estado_cielo>
+        </prediccion>
+        <prediccion dia="M">
+            <temp_min unidad="celsius">15</temp_min>
+            <temp_max unidad="celsius">31</temp_max>
+            <estado_cielo>Soleado</estado_cielo>
+        </prediccion>
+        <prediccion dia="X">
+            <temp_min unidad="celsius">16</temp_min>
+            <temp_max unidad="celsius">29</temp_max>
+            <estado_cielo>Parcialmente nublado</estado_cielo>
+        </prediccion>
+        <prediccion dia="J">
+            <temp_min unidad="celsius">27</temp_min>
+            <temp_max unidad="celsius">17</temp_max>
+            <estado_cielo>Parcialmente nublado</estado_cielo>
+        </prediccion>
+        <prediccion dia="v">
+            <temp_min unidad="celsius">16</temp_min>
+            <temp_max unidad="celsius">27</temp_max>
+            <estado_cielo>Nubes y lluvia</estado_cielo>
+        </prediccion>
+    </prediccion_7dias>
+</tiempo>
