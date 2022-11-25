@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mundial>
+    <equipos>
+        <equipo abreviatura="ESP">España</equipo>
+        <equipo abreviatura="QAT">Qatar</equipo>
+        <equipo abreviatura="BEL">Beñgica</equipo>
+        <equipo abreviatura="BRA">Brasil</equipo>
+        <equipo abreviatura="FRA">Francia</equipo>
+        <equipo abreviatura="ARG">Argentina</equipo>
+        <equipo abreviatura="ING">Inglaterra</equipo>
+        <equipo abreviatura="POR">Portugal</equipo>
+        <equipo abreviatura="DIN">Dinamarca</equipo>
+        <equipo abreviatura="HOL">Paises Bajos</equipo>
+        <equipo abreviatura="MEX">Mexico</equipo>
+        <equipo abreviatura="USA">Estados Unidos</equipo>
+        <equipo abreviatura="SUI">España</equipo>
+        <equipo abreviatura="CRO">España</equipo>
+        <equipo abreviatura="URU">España</equipo>
+    </equipos>
+    <resultados>
+        <fase_de_grupos>
+            <jornada jornada="1">
+                <partido loc="USA=0" vis="MEX=2">Estados Unidos vs Meximo</partido>
+                <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+                <partido loc="BEL=0" vis="SUI=2">Belgica vs Suiza</partido>
+                <partido loc="URU=0" vis="CRO=2">Uruguay vs Croacia</partido>
+            </jornada>
+            <jornada jornada="2">
+                <partido loc="BEL=0" vis="SUI=2">Belgica vs Suiza</partido>
+                <partido loc="URU=0" vis="CRO=2">Uruguay vs Croacia</partido>
+                <partido loc="USA=0" vis="MEX=2">Estados Unidos vs Meximo</partido>
+                <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+            </jornada>
+            <jornada jornada="3">
+                <partido loc="USA=0" vis="MEX=2">Estados Unidos vs Meximo</partido>
+                <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+                <partido loc="BEL=0" vis="SUI=2">Belgica vs Suiza</partido>
+                <partido loc="URU=0" vis="CRO=2">Uruguay vs Croacia</partido>
+            </jornada>
+            <jornada jornada="4">
+                <partido loc="BEL=0" vis="SUI=2">Belgica vs Suiza</partido>
+                <partido loc="URU=0" vis="CRO=2">Uruguay vs Croacia</partido>
+                <partido loc="USA=0" vis="MEX=2">Estados Unidos vs Meximo</partido>
+                <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+            </jornada>
+        </fase_de_grupos>
+        <octavos_de_final>
+            <partido loc="USA=0" vis="MEX=2">Estados Unidos vs Meximo</partido>
+            <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+            <partido loc="BEL=0" vis="SUI=2">Belgica vs Suiza</partido>
+            <partido loc="URU=0" vis="CRO=2">Uruguay vs Croacia</partido>
+            <partido loc="USA=0" vis="MEX=2">Estados Unidos vs Meximo</partido>
+            <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+            <partido loc="BEL=0" vis="SUI=2">Belgica vs Suiza</partido>
+            <partido loc="URU=0" vis="CRO=2">Uruguay vs Croacia</partido>
+        </octavos_de_final>
+        <cuartos_de_final>
+            <partido loc="USA=0" vis="MEX=2">Estados Unidos vs Meximo</partido>
+            <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+            <partido loc="BEL=0" vis="SUI=2">Belgica vs Suiza</partido>
+            <partido loc="URU=0" vis="CRO=2">Uruguay vs Croacia</partido>
+        </cuartos_de_final>
+        <semifinales>
+            <partido loc="USA=0" vis="MEX=2">Estados Unidos vs Meximo</partido>
+            <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+        </semifinales>
+        <final>
+            <partido loc="ESP=6" vis="QAT=2">España vs Qatar</partido>
+        </final>
+    </resultados>
+</mundial>
