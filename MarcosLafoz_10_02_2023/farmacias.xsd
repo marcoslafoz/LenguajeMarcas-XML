@@ -1,0 +1,81 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="resultado">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="totalCount" type="xs:int"></xs:element>
+                <xs:element name="start" type="xs:int"></xs:element>
+                <xs:element name="rows" type="xs:int"></xs:element>
+                <xs:element name="icon" type="xs:string"></xs:element>
+                <xs:element name="result">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="equipamiento" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="id" type="xs:int"></xs:element>
+                                        <xs:element name="title" type="xs:string"></xs:element>
+                                        <xs:element name="telefonos" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="([6|7|8|9])+(([0-9]){8})"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="email" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="(([a-z0-9_\-\.]+)@([a-z0-9_\-]+)\.([a-z\.]{2,5}))"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="horario" type="xs:string" minOccurs="0"></xs:element>
+                                        <xs:element name="descripcion" type="xs:string" minOccurs="0"></xs:element>
+                                        <xs:element name="servicios" type="xs:string" minOccurs="0"></xs:element>
+                                        <xs:element name="url" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="https?:\/\/[\w\-]+(\.[\w\-]+)+[/#?]?"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="clasificacion" type="xs:string" minOccurs="0"></xs:element>
+                                        <xs:element name="calle" type="xs:string"></xs:element>
+                                        <xs:element name="geometry">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="type" type="xs:string"></xs:element>
+                                                    <xs:element name="coordinates" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="guardia">
+                                            <xs:complexType>
+                                                <xs:all>
+                                                    <xs:element name="guardia">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="fecha"
+                                                                    type="xs:dateTime"></xs:element>
+                                                                <xs:element name="turno"
+                                                                    type="xs:string"></xs:element>
+                                                                <xs:element name="horario"
+                                                                    type="xs:string"></xs:element>
+                                                                <xs:element name="sector"
+                                                                    type="xs:string"></xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:all>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="type" type="xs:string"></xs:element>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

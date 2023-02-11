@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="alumnos.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<alumnos>
+    <alumno>
+        <nombre>Juanito López Perez</nombre>
+        <fecha_nacimiento>2000-02-03</fecha_nacimiento>
+        <email>juanitolopez@gmail.com</email>
+    </alumno>
+    <alumno>
+        <nombre>Juanito López Perez</nombre>
+        <fecha_nacimiento>2000-02-03</fecha_nacimiento>
+        <email>juanitolopez@gmail.com</email>
+    </alumno>
+    <alumno>
+        <nombre>Juanito López Perez</nombre>
+        <fecha_nacimiento>2000-02-03</fecha_nacimiento>
+        <email>juanitolopez@gmail.com</email>
+    </alumno>
+</alumnos>

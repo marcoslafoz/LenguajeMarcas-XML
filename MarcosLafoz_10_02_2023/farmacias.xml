@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="farmacias.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<resultado>
+    <totalCount>7</totalCount>
+    <start>0</start>
+    <rows>50</rows>
+    <icon>farmaciaguardia</icon>
+    <result>
+        <equipamiento>
+            <id>8860</id>
+            <title>Farmacia Artal Lerín, Ana Cristina</title>
+            <telefonos>976226203</telefonos>
+            <email>info@somostufarmacia.es</email>
+            <horario>Lunes a Domingo 24 horas</horario>
+            <descripcion><![CDATA[<p>Red comercios amigables</p>]]></descripcion>
+            <servicios><![CDATA[<p>Farmacia, parafarmacia y ortopedia</p>]]></servicios>
+            <url>https://www.somostufarmacia.es</url>
+            <clasificacion>HorarioAmpliado</clasificacion>
+            <calle>Pº. de Sagasta, 8</calle>
+            <geometry>
+                <type>Point</type>
+                <coordinates>-0.8858667199718896,41.646146396697176</coordinates>
+            </geometry>
+            <guardia>
+                <guardia>
+                    <fecha>2023-02-08T00:00:00Z</fecha>
+                    <turno>T-31</turno>
+                    <horario>Abiertas de 9:30 h. a 9:30 h. del día siguiente</horario>
+                    <sector>Sector Gran Vía</sector>
+                </guardia>
+            </guardia>
+            <type>
+                "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2023-02-08","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado"
+                </type>
+        </equipamiento>
+        <equipamiento>
+            <id>8865</id>
+            <title>Farmacia Navarro Cubells, Francisco</title>
+            <telefonos>976391672</telefonos>
+            <calle>C/ Balbino Orensanz, 17</calle>
+            <geometry>
+                <type>Point</type>
+                <coordinates>-0.8585987779095867,41.65823102557841</coordinates>
+            </geometry>
+            <guardia>
+                <guardia>
+                    <fecha>2023-02-08T00:00:00Z</fecha>
+                    <turno>T-31</turno>
+                    <horario>Abiertas de 9:30 h. a 9:30 h. del día siguiente</horario>
+                    <sector>Sector Avda. Cataluña- Parque de Oriente</sector>
+                </guardia>
+            </guardia>
+            <type>"http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2023-02-08"</type>
+        </equipamiento>
+        <equipamiento>
+            <id>8708</id>
+            <title>Farmacia Betore Gallizo, Sara</title>
+            <telefonos>976597869</telefonos>
+            <horario>Sábados horario de mañanas de 9:30 a 13:30 h. (Junio,julio y agosto: 9:15 a
+                13:45 h.)</horario>
+            <clasificacion>HorarioAmpliado</clasificacion>
+            <calle>C/ Pablo Remacha, 17</calle>
+            <geometry>
+                <type>Point</type>
+                <coordinates>-0.8719717198274602,41.63823413682162</coordinates>
+            </geometry>
+            <guardia>
+                <guardia>
+                    <fecha>2023-02-08T00:00:00Z</fecha>
+                    <turno>T-31</turno>
+                    <horario>Abiertas de 9:30 h. a 9:30 h. del día siguiente</horario>
+                    <sector>Sector San José-Frente a Centro Especialidades San José</sector>
+                </guardia>
+            </guardia>
+            <type>
+                "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2023-02-08","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado"</type>
+        </equipamiento>
+        <equipamiento>
+            <id>8853</id>
+            <title>Farmacia Miravete Guiu, Luis Javier</title>
+            <telefonos>976297163</telefonos>
+            <calle>Pza. de Tauste, 1</calle>
+            <geometry>
+                <type>Point</type>
+                <coordinates>-0.867952762570002,41.651733127090715</coordinates>
+            </geometry>
+            <guardia>
+                <guardia>
+                    <fecha>2023-02-08T00:00:00Z</fecha>
+                    <turno>T-31</turno>
+                    <horario>Abiertas de 9:30 h. a 9:30 h. del día siguiente</horario>
+                    <sector>Sector Centro-Junto Residencial Parque Bruil</sector>
+                </guardia>
+            </guardia>
+            <type>"http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2023-02-08"</type>
+        </equipamiento>
+        <equipamiento>
+            <id>8856</id>
+            <title>Farmacia Moral Gómez Jorge Moral</title>
+            <telefonos>976439353</telefonos>
+            <calle>C/ San Pablo, 51</calle>
+            <geometry>
+                <type>Point</type>
+                <coordinates>-0.8862655626534609,41.655851177011996</coordinates>
+            </geometry>
+            <guardia>
+                <guardia>
+                    <fecha>2023-02-08T00:00:00Z</fecha>
+                    <turno>T-31</turno>
+                    <horario>Abiertas de 9:30 h. a 9:30 h. del día siguiente</horario>
+                    <sector>Sector Centro-Frente Iglesia San Pablo</sector>
+                </guardia>
+            </guardia>
+            <type>"http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2023-02-08"</type>
+        </equipamiento>
+        <equipamiento>
+            <id>8893</id>
+            <title>Farmacia Lasmarias Palos, Inés</title>
+            <telefonos>976752453</telefonos>
+            <calle>Vía Hispanidad, 56</calle>
+            <geometry>
+                <type>Point</type>
+                <coordinates>-0.9150970489568285,41.643092842774706</coordinates>
+            </geometry>
+            <guardia>
+                <guardia>
+                    <fecha>2023-02-08T00:00:00Z</fecha>
+                    <turno>T-31</turno>
+                    <horario>Abiertas de 9:30 h. a 9:30 h. del día siguiente</horario>
+                    <sector>Sector Delicias-Entre Duquesa Villahermosa y Gómez Laguna</sector>
+                </guardia>
+            </guardia>
+            <type>"http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2023-02-08"</type>
+        </equipamiento>
+        <equipamiento>
+            <id>20450</id>
+            <title>Farmacia Romay Martínez, José Antonio</title>
+            <telefonos>976513838 1</telefonos>
+            <horario>Lunes a Sábado excepto festivos de 9:30 a 22:00 h</horario>
+            <clasificacion>HorarioAmpliado</clasificacion>
+            <calle>C/ Antonio Saura, 10</calle>
+            <geometry>
+                <type>Point</type>
+                <coordinates>-0.8883185570234234,41.674422322782355</coordinates>
+            </geometry>
+            <guardia>
+                <guardia>
+                    <fecha>2023-02-08T00:00:00Z</fecha>
+                    <turno>T-31</turno>
+                    <horario>Abiertas de 9:30 h. a 9:30 h. del día siguiente</horario>
+                    <sector>Sector Actur-otro acceso por J.García Condoy,16</sector>
+                </guardia>
+            </guardia>
+            <type>
+                "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2023-02-08","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado"</type>
+        </equipamiento>
+    </result>
+</resultado>
