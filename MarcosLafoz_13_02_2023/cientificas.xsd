@@ -1,0 +1,69 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cientificas">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="cientifica">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="nombre" type="xs:string" minOccurs="1"></xs:element>
+                            <xs:element name="lugar_origen" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="nombre_ciudad" type="xs:string"
+                                            minOccurs="1"></xs:element>
+                                        <xs:element name="coordenadas" minOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="latitud" type="xs:string"
+                                                        minOccurs="1"></xs:element>
+                                                    <xs:element name="longitud" type="xs:string"
+                                                        minOccurs="1"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="anyo_nacimiento" minOccurs="1"></xs:element>
+                            <xs:element name="anyo_fallecimiento" type="xs:int" minOccurs="0"></xs:element>
+
+                            <xs:element name="campo_trabajo" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="trabajo" minOccurs="1" maxOccurs="3">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="cientifica" />
+                                                    <xs:enumeration value="ingeniera" />
+                                                    <xs:enumeration value="fisica" />
+                                                    <xs:enumeration value="quimica" />
+                                                    <xs:enumeration value="geologa" />
+                                                    <xs:enumeration value="astronauta" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="obras_notables" minOccurs="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="50"></xs:minLength>
+                                        <xs:maxLength value="1000"></xs:maxLength>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="pagina_web" minOccurs="0">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="https?:\/\/+(.)+[/#?]?"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

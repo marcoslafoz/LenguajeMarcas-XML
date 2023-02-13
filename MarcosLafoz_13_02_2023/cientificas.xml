@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cientificas.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<cientificas>
+    <cientifica>
+        <nombre>Cynthia Breazeal</nombre>
+        <lugar_origen>
+            <nombre_ciudad>Albuquerque</nombre_ciudad>
+            <coordenadas>
+                <latitud>35.081831</latitud>
+                <longitud>-106.64817</longitud>
+            </coordenadas>
+        </lugar_origen>
+        <anyo_nacimiento>1967</anyo_nacimiento>
+        <campo_trabajo>
+            <trabajo>ingeniera</trabajo>
+            <trabajo>cientifica</trabajo>
+        </campo_trabajo>
+        <obras_notables>Jibo social robot es un asistente personal similar a Alexa, Google Assistant o Siri capaz de darnos compañia, leer nuestras emociones, domotizar nuestras casas,...</obras_notables>
+        <pagina_web>https://en.wikipedia.org/wiki/Cynthia_Breazeal/</pagina_web>
+    </cientifica>
+</cientificas>
