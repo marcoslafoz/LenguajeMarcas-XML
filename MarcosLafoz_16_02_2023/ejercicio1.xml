@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio1.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<inmobiliaria>
+    <vendedores>
+        <vendedor id="v1">
+            <nombre>Julian</nombre>
+            <apellidos>Lopez</apellidos>
+            <telefono>654321199</telefono>
+        </vendedor>
+    </vendedores>
+    <inmuebles>
+        <vivienda id_vendedor="v1" fecha="2017-12-22">
+            <direccion>Calle Falsa 123</direccion>
+            <metros>150</metros>
+            <precio>400000</precio>
+            <tipo>Unifamiliar</tipo>
+            <num_habitaciones>5</num_habitaciones>
+        </vivienda>
+        <garaje fecha="2018-10-15">
+            <direccion>Calle Everest 78A</direccion>
+            <metros>7</metros>
+            <precio>80</precio>
+            <plaza>32A</plaza>
+        </garaje>
+        <trastero id_vendedor="v1" fecha="2018-11-12">
+            <direccion>Calle Amazonas 3</direccion>
+            <metros>5</metros>
+            <precio>35</precio>
+        </trastero>
+    </inmuebles>
+</inmobiliaria>

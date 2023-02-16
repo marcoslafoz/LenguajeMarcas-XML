@@ -1,0 +1,78 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="inmobiliaria">
+        <xs:complexType>
+            <xs:all>
+
+                <xs:element name="vendedores">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="vendedor" minOccurs="1" maxOccurs="5">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"></xs:element>
+                                        <xs:element name="apellidos" type="xs:string"></xs:element>
+                                        <xs:element name="telefono">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:maxExclusive value="999999999"></xs:maxExclusive>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="inmuebles">
+                    <xs:complexType>
+                        <xs:all>
+
+                            <xs:element name="vivienda">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="direccion" type="xs:string"></xs:element>
+                                        <xs:element name="metros" type="xs:int"></xs:element>
+                                        <xs:element name="precio" type="xs:int"></xs:element>
+                                        <xs:element name="tipo" type="xs:string"></xs:element>
+                                        <xs:element name="num_habitaciones" type="xs:int"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id_vendedor" type="xs:string" />
+                                    <xs:attribute name="fecha" type="xs:date" />
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="garaje">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="direccion" type="xs:string"></xs:element>
+                                        <xs:element name="metros" type="xs:int"></xs:element>
+                                        <xs:element name="precio" type="xs:int"></xs:element>
+                                        <xs:element name="plaza" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="fecha" type="xs:date" />
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="trastero">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="direccion" type="xs:string"></xs:element>
+                                        <xs:element name="metros" type="xs:int"></xs:element>
+                                        <xs:element name="precio" type="xs:int"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id_vendedor" type="xs:string" />
+                                    <xs:attribute name="fecha" type="xs:date" />
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
