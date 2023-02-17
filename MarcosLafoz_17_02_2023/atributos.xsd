@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+<xs:element name="poste">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:string" />
+                <xs:element name="title" type="xs:string" />
+                <xs:element name="lastUpdated" type="xs:dateTime" />
+                <xs:element name="geometry">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="type" type="xs:string" />
+                            <xs:element name="coordinates" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="link" type="xs:anyURI" />
+                <xs:element name="icon" type="xs:string" />
+                <xs:element name="destinos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="destino">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="linea">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="direccion" type="xs:string" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="tiempo" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:integer">
+                                                        <xs:attribute name="orden" type="xs:string" use="required" />
+                                                        <xs:attribute name="unidades" type="xs:string" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gtfsId" type="xs:integer" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

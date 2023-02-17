@@ -36,8 +36,22 @@
                                         <xs:element name="direccion" type="xs:string"></xs:element>
                                         <xs:element name="metros" type="xs:int"></xs:element>
                                         <xs:element name="precio" type="xs:int"></xs:element>
-                                        <xs:element name="tipo" type="xs:string"></xs:element>
-                                        <xs:element name="num_habitaciones" type="xs:int"></xs:element>
+                                        <xs:element name="tipo" minOccurs="1" maxOccurs="3">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="piso" />
+                                                    <xs:enumeration value="atico" />
+                                                    <xs:enumeration value="unifamiliar" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="num_habitaciones">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:minInclusive value="1"></xs:minInclusive>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="id_vendedor" type="xs:string" />
                                     <xs:attribute name="fecha" type="xs:date" />

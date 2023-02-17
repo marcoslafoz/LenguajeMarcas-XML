@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="atributos.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<poste>
+    <id>tuzsa-1222</id>
+    <title>(1222) Catedral De Santiago Líneas: 59</title>
+    <lastUpdated>2023-02-17T13:09:35Z</lastUpdated>
+    <geometry>
+        <type>Point</type>
+        <coordinates>-0.9642067528818554,41.628200059712704</coordinates>
+    </geometry>
+    <link>https://zaragoza-pasobus.avanzagrupo.com/frm_esquemaparadatime.php?poste=1222</link>
+    <icon>//www.zaragoza.es/contenidos/iconos/bus.png</icon>
+    <destinos>
+        <destino>
+            <linea direccion="TRANVIA-ARCOSUR">59</linea>
+            <tiempo orden="primero" unidades="minutos">1</tiempo>
+            <tiempo orden="segundo" unidades="minutos">14</tiempo>
+        </destino>
+    </destinos>
+    <gtfsId>18803</gtfsId>
+</poste>

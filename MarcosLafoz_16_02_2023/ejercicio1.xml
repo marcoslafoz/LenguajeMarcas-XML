@@ -13,7 +13,7 @@
             <direccion>Calle Falsa 123</direccion>
             <metros>150</metros>
             <precio>400000</precio>
-            <tipo>Unifamiliar</tipo>
+            <tipo>unifamiliar</tipo>
             <num_habitaciones>5</num_habitaciones>
         </vivienda>
         <garaje fecha="2018-10-15">
