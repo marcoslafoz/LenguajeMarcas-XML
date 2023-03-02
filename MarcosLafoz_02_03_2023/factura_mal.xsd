@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="factura">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cliente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="direccion" type="xs:string" />
+                            <xs:element name="ciudad" type="xs:string" />
+                            <xs:element name="pais" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="nombre" type="xs:string" use="required" />
+                        <xs:attribute name="dni" type="dniType" use="required" />
+                        <xs:attribute name="correo" type="xs:string" use="optional" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="articulo" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="precio" type="xs:decimal" />
+                            <!-- <xs:element name="cantidad" type="xs:int" maxOccurs="2" /> --><!-- Deberia estar puesto como atributo -->
+                        </xs:sequence>
+                        <xs:attribute
+                            name="codigo" type="codigoType" use="required" />
+                        <xs:attribute
+                            name="cantidad" type="xs:int" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="total" type="xs:decimal" maxOccurs="2" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="codigoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]\d{3}" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="dniType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{8}[A-Z]" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

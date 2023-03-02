@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="compras.xsd" type="application/xml"
+schematypens="http://www.w3.org/2001/XMLSchema"?>
+<compras>
+    <producto codigo="P001">
+        <nombre>Camiseta</nombre>
+        <precio>10.50</precio>
+        <cantidad>2</cantidad>
+    </producto>
+    <producto codigo="P002">
+        <nombre>Pantalón</nombre>
+        <precio>25.00</precio>
+        <cantidad>1</cantidad>
+    </producto>
+    <producto codigo="P003">
+        <nombre>Gorra</nombre>
+        <precio>5.00</precio>
+        <cantidad>3</cantidad>
+    </producto>
+    <total>55.50</total>
+</compras>

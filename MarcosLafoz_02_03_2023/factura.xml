@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="factura.xsd" type="application/xml"
+schematypens="http://www.w3.org/2001/XMLSchema"?>
+<factura>
+    <cliente nombre="John Smith" dni="12345678A">
+        <direccion>Calle Mayor, 1</direccion>
+        <ciudad>Madrid</ciudad>
+        <pais>España</pais>
+    </cliente>
+    <articulo codigo="A001" cantidad="2">
+        <nombre>Camiseta</nombre>
+        <precio>10.50</precio>
+    </articulo>
+    <articulo codigo="A002" cantidad="1">
+        <nombre>Pantalón</nombre>
+        <precio>25.00</precio>
+    </articulo>
+    <total>46.00</total>
+</factura>
