@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="propiedades.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<properties>
+    <name>Propiedades de ejemplo</name>
+    <description>Estas son algunas propiedades de ejemplo que contienen diferentes
+        tipos de datos.</description>
+    <location>
+        <address>123 Calle Ejemplo</address>
+        <city>Madrid</city>
+        <country>España</country>
+    </location>
+    <price currency="EUR">500000</price>
+    <url>https://www.ejemplo.com/propiedades-de-ejemplo</url>
+    <images>
+        <image>https://www.ejemplo.com/imagen1.jpg</image>
+        <image>https://www.ejemplo.com/imagen2.jpg</image>
+        <image>https://www.ejemplo.com/imagen3.jpg</image>
+    </images>
+</properties>
