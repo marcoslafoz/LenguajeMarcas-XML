@@ -1,9 +1,9 @@
 EXPRESIÓN REGULAR
------------------
+--------------------------------
 \bhttps?:\/\/[^\s<>"]+|\bwww\.[^\s<>"]+
 
 RESULTADOS
-----------
+-------------------
 https://fonts.googleapis.com
 https://sdk.privacy-center.org
 https://hb.20m.es

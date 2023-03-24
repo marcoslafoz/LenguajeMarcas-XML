@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+    <libro ISBN="978-84-376-0494-7" precio="15.95">
+        <título>Introducción a XML</título>
+        <autor>John Smith</autor>
+        <publicacion>2009</publicacion>
+        <párrafo>Este libro es una introducción al lenguaje XML.</párrafo>
+        <párrafo>En este libro se cubren los fundamentos de XML.</párrafo>
+    </libro>
+    <libro ISBN="978-84-376-0495-4" precio="12.95">
+        <título>XML avanzado</título>
+        <autor>Jane Doe</autor>
+        <publicacion>2011</publicacion>
+        <párrafo>Este libro cubre temas avanzados de XML, como XPath y XSLT.</párrafo>
+    </libro>
+    <libro ISBN="978-84-376-0496-1" precio="22.50">
+        <título>XML y bases de datos</título>
+        <autor>David García</autor>
+        <publicacion>2014</publicacion>
+        <párrafo>Este libro trata sobre cómo integrar XML con bases de datos.</párrafo>
+        <párrafo>Se cubren los estándares XML para bases de datos, como XQuery y XML Database.</párrafo>
+    </libro>
+</libreria>
+
+<!--
+Ejemplos prácticos para trabajar con XPATH
+    - Seleccionar todos los nodos "párrafo" de un documento XML:        
+        //párrafo
+    - Seleccionar todos los nodos "autor" que son hijos directos del nodo "libro":      
+        //libro/autor
+    - Seleccionar el valor del atributo "precio" del primer nodo "libro" en el documento:       
+        //libro[1]/@precio
+    - Seleccionar el valor del atributo "ISBN" de todos los nodos "libro" en el documento:      
+        //libro/@ISBN
+    - Seleccionar el valor del elemento "precio" de todos los nodos "libro" publicados después de 2010:
+        /libreria/libro[publicacion > 2010]/@precio
+    - Seleccionar todos los nodos "párrafo" que contienen la palabra "XML" en su texto:
+        /libreria/libro[contains(párrafo, 'XML')]
+    - Seleccionar todos los nodos "libro" cuyo título contiene la palabra "programación":
+        /libreria/libro[contains(título, 'programación')]
+-->
