@@ -1,6 +1,0 @@
-1. Muestra el área de Mongolia
-    /countries/country[@name='Mongolia']/@area
-2. Los nombres de todas las ciudades que tienen el mismo nombre que el país al que pertenecen
-3. La media de población de los países de habla rusa
-4. El nombre de todos los países que tienen al menos 3 ciudades con población mayor a 3 millones.
-5. El nombre del país que tenga la población más alta
