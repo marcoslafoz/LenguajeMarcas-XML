@@ -8,7 +8,7 @@
         <fin>2011-12-01</fin>
         <profesor>Roberto Garcia</profesor>
         <sala>1</sala>
-    </baile>
+    </baile> 
     <baile id="2">
         <nombre>Cha-cha-cha</nombre>
         <precio cuota="trimestral" moneda="euro">80</precio>
