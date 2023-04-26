@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+	<movie type="mistery" rating="PG-13" review="5" year="1992">
+		<title>Raising Arizona</title>
+		<writer>Ethan Coen</writer>
+		<writer>Joel Coen</writer>
+		<producer>
+			<name> Ethan </name>
+			<surname> Coen </surname>
+		</producer>
+		<director>Joel XXX</director>
+		<actor>Holly Coen</actor>
+		<actor>Nicolas Cage</actor>
+		<actor>John Goodman</actor>
+		<comments>A classic one-of-a-kind screwball love story.</comments>
+	</movie>
+	<movie type="comedy" rating="R" review="5" year="1992">
+		<title>Midnight Run</title>
+		<writer>George Gallo</writer>
+		<producer>
+			<name> Natalie </name>
+			<surname> Wood </surname>
+		</producer>
+		<director>Joel Coen</director>
+		<actor>Nicolas Cage</actor>
+		<actor>Robert De Niro</actor>
+		<comments>The quintessential road comedy.</comments>
+	</movie>
+	<movie type="comedy" rating="R" review="5" year="1992">
+		<title>The Usual Suspects</title>
+		<writer>Christopher McQuarrie</writer>
+		<producer>Bryan Wood</producer>
+		<producer>Michael McDonnell</producer>
+		<director>Bryan Singer</director>
+		<actor>Stephen Baldwin</actor>
+		<actor>Gabriel Byrne</actor>
+		<actor>Benicio Del Toro</actor>
+		<actor>Chazz Palminteri</actor>
+		<actor>Kevin Pollak</actor>
+		<actor>Kevin Spacey</actor>
+		<comments>A crime mystery with incredibly intricate plot twists.</comments>
+	</movie>
+	<movie type="sci-fi" rating="PG-13" review="4" year="1992">
+		<title>The Abyss</title>
+		<writer>James Cameron</writer>
+		<producer>Gale Anne Hurd</producer>
+		<director>James Cameron</director>
+		<actor>Ed Harris</actor>
+		<actor>Mary Elizabeth Mastrantonio</actor>
+		<comments>A very engaging underwater odyssey.</comments>
+	</movie>
+</movies>

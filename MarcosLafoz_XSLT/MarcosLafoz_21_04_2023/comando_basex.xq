@@ -1,0 +1,1 @@
+xslt:transform-text('https://www.zaragoza.es/sede/servicio/farmacia.xml', 'farmacias.xsl')
