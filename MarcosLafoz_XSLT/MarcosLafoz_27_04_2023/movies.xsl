@@ -17,7 +17,7 @@
             <li>
               <p><u>Titulo: </u><xsl:value-of select="title"/></p>
               <p><u>Director: </u><xsl:value-of select="director"/></p>
-              <p><u>Productor: </u></p>
+              <p><u>Productor: </u><xsl:value-of select="producer"></xsl:value-of></p>
               <p><b>Actores: </b></p>
               <ul>
                 <xsl:for-each select="actor">
