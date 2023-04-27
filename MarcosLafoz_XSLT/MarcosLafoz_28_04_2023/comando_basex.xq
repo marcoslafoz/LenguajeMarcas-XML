@@ -1,0 +1,1 @@
+(: xslt:transform-text('libreria.xml', 'libreria.xsl') :)
