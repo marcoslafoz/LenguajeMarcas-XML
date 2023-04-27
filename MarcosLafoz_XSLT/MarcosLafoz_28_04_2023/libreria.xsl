@@ -8,8 +8,8 @@
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
                 <meta charset="utf-8" />
-                <title>Ejercicio XSL Movies</title>
-                <meta name="Description" content="Ejercicio peliculas Marcos Lafoz" />
+                <title>Ejercicio XSL Librerias</title>
+                <meta name="Description" content="Ejercicio Librerias Marcos Lafoz" />
                 <style>
                     * {
                         margin: 0px;
