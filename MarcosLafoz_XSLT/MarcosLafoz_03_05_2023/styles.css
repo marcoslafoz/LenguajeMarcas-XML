@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Body*/
+
+* {
+    margin: 0rem;
+}
+
+body {
+    color: black;
+    background-color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+/*Farmacias*/
+
+#listaFarmacias {
+    width: 36rem;
+    font-size: 1rem;
+}
+
+.FarmaciasBoxArray {
+    width: 90%;
+    height: 14rem;
+    background-color: rebeccapurple;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff8f;
+    cursor: pointer;
+    transition: all .3s;
+    overflow: -moz-hidden-unscrollable;
+    margin-left: 2rem;
+    text-align: center;
+
+}
+
+.FarmaciasBoxArray:hover {
+    transform: scale(1.05);
+}
+
+.filaTextoFarmacia1 {
+    padding-top: 1rem;
+    font-size: 0, 9rem;
+}
+
+.filaTextoFarmacia2 {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: grey;
+}
+
+/*Ubicacion icon*/
+
+a,
+.ubicacionURL {
+    color: red;
+    position: inherit;
+    text-decoration: none;
+}
+
+.locationIcon {
+    width: 1.6rem;
+    margin-top: 0.7rem;
+    filter: saturate(1);
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+    color: rgb(41, 41, 41);
+}
