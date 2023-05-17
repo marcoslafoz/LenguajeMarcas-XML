@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book>
+        <title>The Hitchhiker's Guide to the Galaxy</title>
+        <author>Douglas Adams</author>
+        <year>1979</year>
+        <publisher>Pan Books</publisher>
+        <genre>Science fiction</genre>
+    </book>
+    <book>
+        <title>The Lord of the Rings</title>
+        <author>J.R.R. Tolkien</author>
+        <year>1954</year>
+        <publisher>George Allen &amp; Unwin</publisher>
+        <genre>Fantasy</genre>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <year>1960</year>
+        <publisher>J. B. Lippincott &amp; Co.</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <year>1951</year>
+        <publisher>Little, Brown and Company</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <year>1949</year>
+        <publisher>Secker &amp; Warburg</publisher>
+        <genre>Science fiction</genre>
+    </book>
+    <book>
+        <title>Brave New World</title>
+        <author>Aldous Huxley</author>
+        <year>1932</year>
+        <publisher>Chatto &amp; Windus</publisher>
+        <genre>Science fiction</genre>
+    </book>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <year>1925</year>
+        <publisher>Charles Scribner's Sons</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The Adventures of Huckleberry Finn</title>
+        <author>Mark Twain</author>
+        <year>1884</year>
+        <publisher>Chatto &amp; Windus</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The Picture of Dorian Gray</title>
+        <author>Oscar Wilde</author>
+        <year>1890</year>
+        <publisher>Ward, Lock and Company</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The Iliad</title>
+        <author>Homer</author>
+        <year>800 BCE</year>
+        <publisher>N/A</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The Odyssey</title>
+        <author>Homer</author>
+        <year>675 BCE</year>
+        <publisher>N/A</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The Divine Comedy</title>
+        <author>Dante Alighieri</author>
+        <year>1320</year>
+        <publisher>N/A</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The Canterbury Tales</title>
+        <author>Geoffrey Chaucer</author>
+        <year>1400</year>
+        <publisher>N/A</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The War of the Worlds</title>
+        <author>H.G. Wells</author>
+        <year>1898</year>
+        <publisher>William Heinemann</publisher>
+        <genre>Science fiction</genre>
+    </book>
+    <book>
+        <title>The Time Machine</title>
+        <author>H.G. Wells</author>
+        <year>1895</year>
+        <publisher>William Heinemann</publisher>
+        <genre>Science fiction</genre>
+    </book>
+    <book>
+        <title>The Island of Dr. Moreau</title>
+        <author>H.G. Wells</author>
+        <year>1896</year>
+        <publisher>William Heinemann</publisher>
+        <genre>Science fiction</genre>
+    </book>
+    <book>
+        <title>The Call of the Wild</title>
+        <author>Jack London</author>
+        <year>1903</year>
+        <publisher>Macmillan Publishers</publisher>
+        <genre>Adventure</genre>
+    </book>
+    <book>
+        <title>White Fang</title>
+        <author>Jack London</author>
+        <year>1906</year>
+        <publisher>Macmillan Publishers</publisher>
+        <genre>Adventure</genre>
+    </book>
+    <book>
+        <title>The Adventures of Tom Sawyer</title>
+        <author>Mark Twain</author>
+        <year>1876</year>
+        <publisher>Chatto &amp; Windus</publisher>
+        <genre>Classic</genre>
+    </book>
+    <book>
+        <title>The Adventures of Sherlock Holmes</title>
+        <author>Arthur Conan Doyle</author>
+        <year>1892</year>
+        <publisher>George Newnes Ltd.</publisher>
+        <genre>Mystery</genre>
+    </book>
+    <book>
+        <title>Crime and Punishment</title>
+        <author>Fyodor Dostoevsky</author>
+        <year>1866</year>
+        <publisher>The Russian Messenger</publisher>
+        <genre>Psychological thriller</genre>
+    </book>
+    <book>
+        <title>Dracula</title>
+        <author>Bram Stoker</author>
+        <year>1897</year>
+        <publisher>Archibald Constable and Company</publisher>
+        <genre>Horror</genre>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <year>1937</year>
+        <publisher>George Allen &amp; Unwin</publisher>
+        <genre>Fantasy</genre>
+    </book>
+</library>
