@@ -1,0 +1,16 @@
+body{display:flex;flex-direction:column;align-items:center}
+.card{display:flex;flex-direction:column;border:1px solid #ccc;border-radius:10px;overflow:hidden;max-width:400px;margin:0 auto;margin-top:20px}
+.card-header{position:relative;width:100%;padding-bottom:150%;background-image:url(https://parallel.cymru/wp-content/uploads/Generic-Book-Placeholder-icon-e1506861825846.png);background-size:cover;background-position:center}
+.card-header img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}
+.card-body{padding:1rem;flex-grow:1}
+.card-title{font-size:1.5rem;font-weight:700;margin-top:0}
+.card-author{font-style:italic;margin-top:0}
+.card-description{margin-top:1rem}
+.card-publisher,.card-year{font-size:.8rem;margin-top:.5rem}
+body{font-family:Arial,sans-serif;background-color:#fff;color:#000}
+h1{color:#000}
+.ej1Cont,.ej2Cont,.ej3Cont,.ej4Cont,.ej5Cont,.ej6Cont{margin-bottom:20px;padding:10px;border:1px solid #000;border-radius:10px;width:600px;padding:50px}
+table{width:100%;border-collapse:collapse}
+td,th{padding:8px;border:1px solid #000;border-radius:10px}
+p{color:#525252}
+.titulo{padding:20px}
