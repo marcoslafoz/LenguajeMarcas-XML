@@ -3,7 +3,7 @@
     <xsl:template match="/">
 
         <h1>Ejercicio 3</h1>
-        <p>Crea un archivo HTML que muestre todos los libros publicados después de 1900, <br/>mostrando el título, el autor y el año de publicación.</p>
+        <p>Crea un archivo HTML que muestre todos los libros publicados después de 1900, mostrando el título, el autor y el año de publicación.</p>
         <ul>
             <xsl:for-each select="library/book[year > 1900]">
                 <xsl:sort select="title" />

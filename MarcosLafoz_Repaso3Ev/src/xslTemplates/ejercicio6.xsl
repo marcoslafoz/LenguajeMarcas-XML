@@ -6,7 +6,7 @@
   <xsl:template match="/">
 
     <h1>Ejercicio 6</h1>
-    <p>A partir de la plantilla que te paso, genera la <br/>transformación apropiada para mostrar los libros de la biblioteca en una tarjeta cada uno.</p>
+    <p>A partir de la plantilla que te paso, genera la transformación apropiada para mostrar los libros de la biblioteca en una tarjeta cada uno.</p>
 
     <xsl:for-each select="library/book">
       <div class="card">

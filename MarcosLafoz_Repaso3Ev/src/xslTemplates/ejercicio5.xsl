@@ -6,7 +6,7 @@
   <xsl:template match="/">
 
     <h1>Ejercicio 5</h1>
-    <p>Crea una lista de todos los autores que han publicado al menos un <br/>libro en la biblioteca, mostrando el nombre del autor y el número de libros que ha publicado.</p>
+    <p>Crea una lista de todos los autores que han publicado al menos un libro en la biblioteca, mostrando el nombre del autor y el número de libros que ha publicado.</p>
     <table border="1">
     <tr>
         <td>Autor</td>

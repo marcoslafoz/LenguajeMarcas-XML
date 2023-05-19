@@ -3,7 +3,7 @@
     <xsl:template match="/">
 
         <h1>Ejercicio 4</h1>
-        <p>Crea un archivo HTML que muestre una tabla con los títulos <br/>de los libros, el nombre del autor y el género.</p>
+        <p>Crea un archivo HTML que muestre una tabla con los títulos de los libros, el nombre del autor y el género.</p>
         <table border="1">
                 <tr>
                     <td><b>Libro</b></td>

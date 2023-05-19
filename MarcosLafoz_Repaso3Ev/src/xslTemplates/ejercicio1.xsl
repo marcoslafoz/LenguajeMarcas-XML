@@ -11,7 +11,7 @@
                     <td><b>Fecha de publicación</b></td>
                 </tr>
                 <xsl:for-each select="library/book">
-                <xsl:sort select="year"/>
+                <xsl:sort select="year" order="ascending"/>
                 <tr>
                     <td><xsl:value-of select="title"></xsl:value-of></td>
                     <td><xsl:value-of select="author"></xsl:value-of></td>
