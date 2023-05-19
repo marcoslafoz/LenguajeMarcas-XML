@@ -11,20 +11,20 @@
 - Selecciona los títulos de todos los libros de ciencia ficción publicados antes de 1920.
   - `/library/book[genre = 'Science fiction' and year < 1920]/title`
 - Selecciona el nombre del primer autor de un libro publicado en 1900.
-  - `/library/book[year = 1900][1]/author`
+  - `min(//book[number(substring(year,1,4))>1900]/year)`
 
 ## XQuery
 
-- Selecciona todos los autores de libros publicados después de 1900.
-  - `for $book in doc("src/books.xml")//book[year > 1900] return $book/author`
-- Selecciona el título del libro más antiguo en la biblioteca.
-  - `let $antiguo := doc("src/books.xml")//book[not(year > //book/year)] return $antiguo/title`
-- Selecciona todos los libros escritos por autores cuyo nombre empieza por la letra "J".
-  - `for $book in doc("src/books.xml")//book[starts-with(author, "J")] return $book`
-- Selecciona los títulos de todos los libros de ciencia ficción publicados antes de 1920.
-  - `for $book in doc("src/books.xml")//book[genre = "Science fiction" and year < 1920] return $book/title`
-- Selecciona el nombre del primer autor de un libro publicado en 1900.
-  - `let $autor := doc("src/books.xml")//book[year = 1900][1]/author return $autor`
+- Encuentra todos los libros publicados por el editor "Macmillan Publishers".
+  - `for $book in //book[publisher="Macmillan Publishers"]/title return $book`
+- Encuentra el número total de libros en la biblioteca.
+  - `let $total := //book return count($total)`
+- Encuentra los nombres de todos los autores que han escrito más de un libro en la biblioteca.
+  - `for $author in distinct-values(/library/book/author) where count(/library/book[author = $author]) > 1 return $author`
+- Encuentra los títulos de los libros cuyo género es "Horror" o "Mystery".
+  - `for $book in //book[genre = ("Horror", "Mystery")]/title return $book`
+- Encuentra todos los autores que han publicado un libro después de 1920.
+  - `for $author in /library/book[number(substring(year, 1,4))>1920]/author return $author`
 
 ## XSLT
 
